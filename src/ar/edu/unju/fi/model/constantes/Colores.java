@@ -5,3 +5,4 @@ public enum Colores {
 	AZUL, NEGRO, ROJO;
 	
 }
+ 
