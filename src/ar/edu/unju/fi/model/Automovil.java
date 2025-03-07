@@ -26,6 +26,12 @@ public class Automovil {
 			this.precio = precio;
 			this.color = color;
 		}
+		
+		@Override
+		public String toString() {
+			return "Automovil [patente=" + patente + ", marca=" + marca + ", modelo=" + modelo + ", anio=" + anio
+					+ ", precio=" + precio + ", color=" + color + "]";
+		}
 
 		public String getPatente() {
 			return patente;
